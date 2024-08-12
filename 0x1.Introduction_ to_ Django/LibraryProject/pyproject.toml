@@ -2,14 +2,16 @@
 name = "0x1-introduction- to- django"
 version = "0.1.0"
 description = ""
-authors = ["hanzo1codes <bielertw@icloud.com>"]
+authors = ["coderhanzo <bielertw@icloud.com>"]
 readme = "README.md"
 packages = [{include = "0x1"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
-mysqlclient = "^2.2.4"
 django = "^5.1"
+mysql-connector-python = "^9.0.0"
+mysql = "^0.0.3"
+mysqlclient = "^2.2.4"
 
 
 [build-system]
