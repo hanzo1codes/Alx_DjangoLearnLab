@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "0x1-introduction- to- django"
+version = "0.1.0"
+description = ""
+authors = ["hanzo1codes <bielertw@icloud.com>"]
+readme = "README.md"
+packages = [{include = "0x1"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mysqlclient = "^2.2.4"
+django = "^5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
